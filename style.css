@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px;
+}
+
+.field {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(75, 192, 224);
+}
+
+.excel {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background: url('./Ellipse.png') center;
+    background-repeat: no-repeat;
+}
+
+.snakeBody {
+    border: 1px solid green;
+    background: greenyellow;
+}
+
+.snakeHead {
+    border: 1px solid greenyellow;
+    background: green;
+}
+
+.apple {
+    border: 5px solid yellow;
+    background: red;
+    border-radius: 50%;
+}
+
+.input {
+    width: 120px;
+    margin: 40px auto;
+    font-size: 20px;
+    display: block;
+}
+
+.none {
+    display: none;
+}
